@@ -1,0 +1,21 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Top Bar Style  */
+.top-bar{
+    background-color: #071C1F;
+    height: 50px;
+}
+
+/* Menu Bar Style  */
+.menu-bar{
+ font-size: 16px;
+ font-weight: 500;
+}
+
+.nav-btn{
+    background-color: #FF5A3C;
+    color: white;
+    padding: 15px 30px;
+}
