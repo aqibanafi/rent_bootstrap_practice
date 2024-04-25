@@ -1,21 +1,87 @@
-*{
+* {
     font-family: "Poppins", sans-serif;
 }
 
+.section-gap{
+    margin-top: 100px;;
+}
+
 /* Top Bar Style  */
-.top-bar{
+.top-bar {
     background-color: #071C1F;
     height: 50px;
 }
 
 /* Menu Bar Style  */
-.menu-bar{
- font-size: 16px;
- font-weight: 500;
+.menu-bar {
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.nav-btn{
+.nav-btn {
     background-color: #FF5A3C;
     color: white;
     padding: 15px 30px;
 }
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero-paragraph {
+    color: #9EABB3;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.section-paragraph{
+    color: #9EABB3;
+    font-weight: 200;
+}
+
+.sub-section-paragraph {
+    color: #9EABB3;
+    font-size: 12px;
+}
+
+.property-card_first{
+    background-image: url('../assets/img/Rectangle\ 89.jpg');
+    width: 424px; 
+    height: 380px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+.property-card_second{
+    background-image: url('../assets/img/Rectangle\ 90.jpg');
+    width: 424px; 
+    height: 380px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+.property-card_third{
+    background-image: url('../assets/img/Rectangle\ 91.jpg');
+    width: 424px; 
+    height: 380px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+.inner-card{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -2px;
+}
+
+/* .blog-div{
+    width: 312px;
+    height: 441px;
+} */
