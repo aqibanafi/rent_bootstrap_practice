@@ -34,11 +34,18 @@
     color: #9EABB3;
     font-weight: 200;
     margin-bottom: 30px;
+    width: 80%;
 }
 
 .section-paragraph{
     color: #9EABB3;
     font-weight: 200;
+}
+
+.width-optimization{
+    color: #9EABB3;
+    font-weight: 200;
+    width: 80%;
 }
 
 .sub-section-paragraph {
@@ -85,3 +92,13 @@
     width: 312px;
     height: 441px;
 } */
+
+
+@media screen and (max-width: 576px) {
+    .hero-paragraph{
+        width: 100%;
+    }
+    .width-optimization{
+        width: 100%;
+    }
+}
